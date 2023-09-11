@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <div
-      id="Hero"
+      id="hero"
       className="hero bg-base-200 min-h-screen z-0 px-4 lg:px-24 xl:px-44"
     >
       <div className="hero bg-base-200">
@@ -15,13 +15,14 @@ const Hero = () => {
           <div>
             <h1 className="text-5xl font-bold text-accent">Hi, I'm Cheng</h1>
             <p className="py-6">
-              I'm a Software Engineering Student at the University of Alberta. I
-              love full-stack applications and machine learning. With a
-              combination of technical expertise and problem-driven solutions, I
-              like to deliver high quality code to enhance websites, software,
-              and applications
+              Hello, I'm a Software Engineering Student with a strong interest
+              in programming and a genuine passion for learning. I have a
+              particular fondness for full-stack applications and machine
+              learning. Through a combination of technical skills and a
+              problem-solving approach, I strive to deliver high-quality code to
+              improve the performance of websites, software, and applications.
             </p>
-            <div></div>
+
             {/* <a href="#Contact" className="btn btn-secondary">
               Contact Me
             </a> */}
