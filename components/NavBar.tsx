@@ -88,7 +88,7 @@ const NavBar = () => {
             <a href="#contact">Contact</a>
           </li>
           <li>
-            <a target="_blank" href="/Resume.pdf" rel="noreferrer">
+            <a target="_blank" href="/Cheng_Qian_Resume.pdf" rel="noreferrer">
               Resume
             </a>
           </li>
