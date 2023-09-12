@@ -11,13 +11,16 @@ const Hero = () => {
           <img
             src="/image.png"
             className="rounded-full object-contain mt-16 w-9/12 sm:w-7/12 md:w-4/12 lg:mt-0"
+            alt="Cheng Qian"
           />
           <div>
-            <h1 className="text-5xl font-bold text-accent">Hi, I'm Cheng</h1>
+            <h1 className="text-5xl font-bold text-accent">
+              Hi, I&apos;m Cheng
+            </h1>
             <p className="py-6">
-              Hello, I'm a Software Engineering student with a strong interest
-              in programming and a genuine passion for learning. I have a
-              particular fondness for full-stack applications and machine
+              Hello, I&apos;m a Software Engineering student with a strong
+              interest in programming and a genuine passion for learning. I have
+              a particular fondness for full-stack applications and machine
               learning. Through a combination of technical skills and a
               problem-solving approach, I strive to deliver high-quality code to
               improve the performance of websites, software, and applications.
