@@ -40,7 +40,7 @@ const FeaturedProject = ({
     <>
       {(index % 2 === 0 && windowWidth > 768) || windowWidth < 768 ? (
         <AnimationOnScroll animateOnce animateIn="animate__slideInLeft">
-          <div className="flex justify-center flex-wrap py-8 mx-6 md:gap-6">
+          <div className="flex justify-center flex-wrap py-8 mx-6 md:gap-6 overflow-x-hidden">
             <img
               className="object-cover rounded-2xl w-full cursor-pointer sm:w-6/12 md:w-4/12"
               src={image}
@@ -107,7 +107,7 @@ const FeaturedProject = ({
         </AnimationOnScroll>
       ) : (
         <AnimationOnScroll animateOnce={true} animateIn="animate__slideInRight">
-          <div className="flex justify-center flex-wrap py-8 mx-6 md:gap-6">
+          <div className="flex justify-center flex-wrap py-8 mx-6 md:gap-6 overflow-x-hidden">
             <div className="shadow-md flex flex-col rounded-2xl justify-around gap-8 p-6 bg-base-300 sm:w-6/12 md:w-6/12 md:gap-2">
               <a href={link} target="_blank" rel="noreferrer">
                 <h3 className="stat-value text-2xl lg:text-3xl">{name}</h3>

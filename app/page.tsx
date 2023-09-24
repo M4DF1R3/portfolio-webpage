@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <>
+    <body className="overflow-x-hidden">
       <NavBar />
       <Hero />
       <div id="projects" className="text-center font-bold bg-base-200">
@@ -38,6 +38,6 @@ export default function Home() {
         ))}
       </div>
       <Footer />
-    </>
+    </body>
   );
 }
