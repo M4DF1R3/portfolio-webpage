@@ -28,6 +28,7 @@ export default function Home() {
       <div className="bg-base-200 flex flex-wrap justify-center py-8">
         {projects.map((project) => (
           <Project
+            key={project.name}
             name={project.name}
             description={project.description}
             github={project.github}
