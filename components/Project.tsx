@@ -20,7 +20,7 @@ const Projects = ({
   return (
     <div className="card w-96 bg-base-100 shadow-xl m-5">
       <figure>
-        <img src={image} alt="project" />
+        <img src={image} alt="project" className="h-50 object-cover" />
       </figure>
       <div className="card-body">
         <h2 className="card-title font-bold">{name}</h2>

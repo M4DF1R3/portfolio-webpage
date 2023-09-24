@@ -51,3 +51,20 @@ export const projects = [
         techStack: ["Three.js", "JavaScript", "HTML", "CSS"],
       },
 ];
+
+export const footerLinks = [
+    {
+      title: "Socials",
+      links: [
+        { title: "LinkedIn", url: "https://www.linkedin.com/in/cq4/" },
+        { title: "GitHub", url: "https://github.com/M4DF1R3" },
+      ],
+    },
+    {
+      title: "Contact",
+      links: [
+        { title: "Email: cq4@ualberta.ca", url: "" },
+        { title: "Mobile: 587-921-1315", url: "" },
+      ],
+    },
+  ];

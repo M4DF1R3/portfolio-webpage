@@ -3,6 +3,7 @@ import NavBar from "@/components/NavBar";
 import FeaturedProject from "@/components/FeaturedProject";
 import Project from "@/components/Project";
 import { featuredProjects, projects } from "@/constants";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <NavBar />
       <Hero />
       <div id="projects" className="text-center font-bold bg-base-200">
+        <h1 className="text-4xl py-8">Featured Projects</h1>
         {featuredProjects.map((project, index) => (
           <FeaturedProject
             key={index}
@@ -23,7 +25,7 @@ export default function Home() {
           />
         ))}
       </div>
-      {/* <div className="bg-base-200 flex flex-wrap justify-center py-8">
+      <div className="bg-base-200 flex flex-wrap justify-center py-8">
         {projects.map((project) => (
           <Project
             name={project.name}
@@ -34,7 +36,8 @@ export default function Home() {
             techStack={project.techStack}
           />
         ))}
-      </div> */}
+      </div>
+      <Footer />
     </>
   );
 }
