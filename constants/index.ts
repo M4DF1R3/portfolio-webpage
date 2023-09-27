@@ -10,7 +10,7 @@ export const featuredProjects = [
     {
         name: "CIFAR-10 CNN",
         description: "I created a TensorFlow CNN model with a strong 88% validation accuracy for image classification based on the CIFAR-10 dataset. I optimized the model and prevented overfitting using data normalization, data augmentation, and dropout.",
-        image: "tensorflow.png",
+        image: "cifar-10.jpg",
         link: "https://colab.research.google.com/drive/1HjhKMIfhluU632alPclaVytBIC3u7lnA?usp=sharing",
         github: "",
         techStack: ["TensorFlow 2.0", "Python", "NumPy", "Matplotlib"],
@@ -33,6 +33,14 @@ export const projects = [
         link: "",
         github: "https://github.com/M4DF1R3/Navigation-System-CPP-Python",
         techStack: ["C++", "Python", "Pygame"],
+    },
+    {
+      name: "Fruits360 CNN",
+      description: "I built a robust fruit classification system using a pre-trained ResNet50 model with additional layers to accurately categorize a diverse dataset of 60 different fruits images of 100x100x3, achieving a validation accuracy exceeding 99%. Implemented standard ML techniques, including the creation of a confusion matrix for performance evaluation and the implementation of data augmentation for improved model generalization",
+      image: "fruits-360.png",
+      link: "https://colab.research.google.com/drive/1WbaJXYpmdpeHrYeMSsSnEyP5OC2v4kpd?usp=sharing",
+      github: "",
+      techStack: ["Three.js", "JavaScript", "HTML", "CSS"],
     },
     {
         name: "Budget Website",
