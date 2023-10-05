@@ -11,7 +11,7 @@ export default function Home() {
       <NavBar />
       <Hero />
       <div id="projects" className="text-center font-bold bg-base-200">
-        <h1 className="text-4xl py-8">Featured Projects</h1>
+        <h1 className="text-4xl py-8 text-white">Featured Projects</h1>
         {featuredProjects.map((project, index) => (
           <FeaturedProject
             key={index}

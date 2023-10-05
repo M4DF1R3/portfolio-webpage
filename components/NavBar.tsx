@@ -54,7 +54,7 @@ const NavBar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-white"
           >
             <li>
               <a href="#hero">About</a>
@@ -77,7 +77,7 @@ const NavBar = () => {
         </a>
       </div>
       <div className="navbar-end hidden lg:flex">
-        <ul className="menu menu-horizontal p-0">
+        <ul className="menu menu-horizontal p-0 text-white">
           <li>
             <a href="#hero">About</a>
           </li>

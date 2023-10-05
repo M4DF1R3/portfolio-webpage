@@ -23,8 +23,8 @@ const Projects = ({
         <img src={image} alt="project" className="h-50 object-cover" />
       </figure>
       <div className="card-body">
-        <h2 className="card-title font-bold">{name}</h2>
-        <p className="text-sm">{description}</p>
+        <h2 className="card-title font-bold text-white">{name}</h2>
+        <p className="text-sm text-white">{description}</p>
         <div className="card-actions justify-end">
           {link != "" && (
             <a className="btn btn-primary" href={link} target="_blank">

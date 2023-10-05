@@ -49,11 +49,13 @@ const FeaturedProject = ({
             />
             <div className="shadow-md flex flex-col rounded-2xl justify-around gap-8 p-6 bg-base-300 sm:w-6/12 md:w-6/12 md:gap-2">
               <a href={link} target="_blank" rel="noreferrer">
-                <h3 className="stat-value text-2xl lg:text-3xl">{name}</h3>
+                <h3 className="stat-value text-2xl lg:text-3xl text-white">
+                  {name}
+                </h3>
               </a>
               <div className="flex gap-2 flex-wrap">
                 {techStack.map((tech, i) => {
-                  //let's make the badges different colors to add some pizzazz
+                  // Make the badges different colors so they stand out
                   const badgeColors = [
                     "badge-primary",
                     "badge-secondary",
@@ -79,7 +81,9 @@ const FeaturedProject = ({
                   );
                 })}
               </div>
-              <div className="my-4 text-sm text-left">{description}</div>
+              <div className="my-4 text-sm text-left text-white">
+                {description}
+              </div>
               <div className="flex gap-2">
                 {link != "" && (
                   <a
@@ -110,7 +114,9 @@ const FeaturedProject = ({
           <div className="flex justify-center flex-wrap py-8 mx-6 md:gap-6 overflow-x-hidden">
             <div className="shadow-md flex flex-col rounded-2xl justify-around gap-8 p-6 bg-base-300 sm:w-6/12 md:w-6/12 md:gap-2">
               <a href={link} target="_blank" rel="noreferrer">
-                <h3 className="stat-value text-2xl lg:text-3xl">{name}</h3>
+                <h3 className="stat-value text-2xl lg:text-3xl text-white">
+                  {name}
+                </h3>
               </a>
               <div className="flex gap-2 flex-wrap">
                 {techStack.map((tech, i) => {
@@ -140,7 +146,9 @@ const FeaturedProject = ({
                   );
                 })}
               </div>
-              <div className="my-4 text-sm text-left">{description}</div>
+              <div className="my-4 text-sm text-left text-white">
+                {description}
+              </div>
               <div className="flex gap-2">
                 {link != "" && (
                   <a
