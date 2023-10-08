@@ -81,7 +81,7 @@ const FeaturedProject = ({
                   );
                 })}
               </div>
-              <div className="my-4 text-sm text-left text-white">
+              <div className="my-4 text-sm text-left text-white text-base">
                 {description}
               </div>
               <div className="flex gap-2">
@@ -146,7 +146,7 @@ const FeaturedProject = ({
                   );
                 })}
               </div>
-              <div className="my-4 text-sm text-left text-white">
+              <div className="my-4 text-sm text-left text-white text-base">
                 {description}
               </div>
               <div className="flex gap-2">
