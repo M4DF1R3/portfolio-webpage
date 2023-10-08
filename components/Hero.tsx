@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="hero bg-base-200 min-h-screen z-0 px-4 lg:px-24 xl:px-44"
+      className="hero bg-base-200 min-h-screen z-0 px-4 lg:px-24 xl:px-44 font-arial"
     >
       <div className="hero bg-base-200">
         <div className="hero-content mb-12 flex-col items-center lg:mt-2 lg:flex-row-reverse gap-4">

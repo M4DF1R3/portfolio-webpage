@@ -34,7 +34,7 @@ const NavBar = () => {
       transition={{ ease: [0.1, 0.25, 0.3, 1], duration: 0.8 }}
       className="navbar fixed bg-base-100  z-50"
     >
-      <div className="navbar-start">
+      <div className="navbar-start font-arial">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
@@ -76,7 +76,7 @@ const NavBar = () => {
           Cheng Qian
         </a>
       </div>
-      <div className="navbar-end hidden lg:flex">
+      <div className="navbar-end hidden lg:flex font-arial">
         <ul className="menu menu-horizontal p-0 text-white">
           <li>
             <a href="#hero">About</a>
