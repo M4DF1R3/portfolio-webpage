@@ -17,7 +17,7 @@ const Hero = () => {
             <h1 className="text-5xl font-bold text-accent">
               Hi, I&apos;m Cheng
             </h1>
-            <p className="py-6 text-white font-medium">
+            <p className="py-6 text-white text-base">
               Hello, I&apos;m a Software Engineering student with a strong
               interest in programming and a genuine passion for learning. I have
               a particular fondness for full-stack applications and machine
