@@ -62,9 +62,14 @@ const NavBar = () => {
             <li>
               <a href="#projects">Projects</a>
             </li>
-            {/* <li>
+            {/* 
+            <li>
+              <a href="#experience">Experience</a>
+            </li> 
+            <li>
               <a href="#contact">Contact</a>
-            </li> */}
+            </li> 
+            */}
             <li>
               <a target="_blank" href="/Resume.pdf" rel="noreferrer">
                 Resume
@@ -84,9 +89,14 @@ const NavBar = () => {
           <li>
             <a href="#projects">Projects</a>
           </li>
-          {/* <li>
+          {/* 
+          <li>
+            <a href="#experience">Experience</a>
+          </li> 
+          <li>
             <a href="#contact">Contact</a>
-          </li> */}
+          </li> 
+          */}
           <li>
             <a target="_blank" href="/Cheng_Qian_Resume.pdf" rel="noreferrer">
               Resume
