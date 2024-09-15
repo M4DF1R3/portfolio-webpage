@@ -60,12 +60,12 @@ const NavBar = () => {
               <a href="#hero">About</a>
             </li>
             <li>
+              <a href="#experience">Experience</a>
+            </li>
+            <li>
               <a href="#projects">Projects</a>
             </li>
             {/* 
-            <li>
-              <a href="#experience">Experience</a>
-            </li> 
             <li>
               <a href="#contact">Contact</a>
             </li> 
@@ -77,22 +77,24 @@ const NavBar = () => {
             </li>
           </ul>
         </div>
-        <a href="" className="btn btn-ghost text-accent normal-case text-xl">
+        <div className="btn btn-ghost text-accent normal-case text-xl">
           Cheng Qian
-        </a>
+        </div>
       </div>
+
+      {/* Desktop */}
       <div className="navbar-end hidden lg:flex font-arial">
         <ul className="menu menu-horizontal p-0 text-white">
           <li>
             <a href="#hero">About</a>
           </li>
           <li>
+            <a href="#experience">Experience</a>
+          </li> 
+          <li>
             <a href="#projects">Projects</a>
           </li>
           {/* 
-          <li>
-            <a href="#experience">Experience</a>
-          </li> 
           <li>
             <a href="#contact">Contact</a>
           </li> 

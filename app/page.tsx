@@ -4,12 +4,14 @@ import FeaturedProject from "@/components/FeaturedProject";
 import Project from "@/components/Project";
 import { featuredProjects, projects } from "@/constants";
 import Footer from "@/components/Footer";
+import Experience from "@/components/Experience";
 
 export default function Home() {
   return (
     <body className="overflow-x-hidden">
       <NavBar />
       <Hero />
+      <Experience />
       <div id="projects" className="text-center font-bold bg-base-200">
         <h1 className="text-4xl py-8 text-white">Featured Projects</h1>
         {featuredProjects.map((project, index) => (
