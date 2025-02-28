@@ -28,6 +28,7 @@ const Experience = () => {
           </div>
           <hr className="bg-primary" />
         </li>
+
         <li>
           <hr className="bg-primary" />
           <div className="timeline-middle">
@@ -54,6 +55,7 @@ const Experience = () => {
           </div>
           <hr className="bg-primary" />
         </li>
+
         <li>
           <hr className="bg-primary" />
           <div className="timeline-middle">
@@ -72,16 +74,44 @@ const Experience = () => {
             <div className="text-lg font-black">Software Developer Student | PCL Construction</div>
             <div className="font-mono italic">Jan 2024 - Aug 2024</div>
             <p className="text-start">
-              Optimized the codebase and introduced new features for PCL’s Industrial Project Management (IPM) C# desktop application.
-              Implemented a multi-threaded, asynchronous reporting system, greatly enhancing the efficiency of batch report exports.
-              Leveraged APIs to determine the storage location of specification drawings (on-premise or cloud) for streamlined access and retrieval.
-              Developed RESTful APIs and refactored backend services to align with the domain model, boosting maintainability.
-              Additionally, createdan automated machine learning pipeline utilizing image processing and TensorFlow, refining a ResNet model to
-              achieve accurate label recognition in technical drawings.
+              During my time at PCL, I optimized the codebase and introduced new features for the Industrial Project Management (IPM) C# desktop application.
+              My contribution included building a multi-threaded, asynchronous reporting system, greatly enhancing the efficiency of batch report exports. I leveraged APIs to
+              determine the storage location of specification drawings (on-premise or cloud) for streamlined access and retrieval. Additionally, I developed RESTful APIs
+              and refactored backend services to align with the domain model, boosting maintainability. Lastly, I created an automated ML pipeline utilizing image processing
+              and TensorFlow, refining a ResNet model to achieve accurate label recognition in technical drawings.
             </p>
           </div>
-          <hr />
+          <hr className="bg-primary" />
         </li>
+
+        <li>
+          <hr className="bg-primary" />
+          <div className="timeline-middle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              className="h-5 w-5">
+              <path
+                fillRule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                clipRule="evenodd" />
+            </svg>
+          </div>
+          <div className="timeline-end mb-10">
+            <div className="text-lg font-black">Undergraduate Research | University of Alberta</div>
+            <div className="font-mono italic">Sep - Dec 2024</div>
+            <p>
+                To enhance drug sensitivity predictions using cancer genomic data, I developed a machine learning pipeline using popular ML libraries from TensorFlow, PyTorch,
+                scikit-learn to focused on predictive modeling. Preprocessing and training workflows were implemented using scikit-learn, streamlining data preparation 
+                and analysis. Dimensionality reduction techniques and various models, including Elastic Net, Graph Neural Networks (GNN), and Support Vector Machines
+                (SVM), were applied to optimize predictive performance. Validation helped identify the most effective approaches for improving
+                drug response predictions, contributing to more accurate and insightful genomic-driven treatment strategies. Supervised by PhD Dr. Lei Ma and completed a academic paper.
+            </p>
+          </div>
+          <hr className="bg-primary" />
+        </li>
+
         <li>
           <hr />
           <div className="timeline-middle">
@@ -96,7 +126,7 @@ const Experience = () => {
                 clipRule="evenodd" />
             </svg>
           </div>
-          <div className="timeline-end mb-10">
+          <div className="timeline-start mb-10 md:text-end">
             <div className="text-lg font-black">Available for 8-month co-op</div>
             <div className="font-mono italic">May 2025 - Dec 2025</div>
             <p>
@@ -106,6 +136,7 @@ const Experience = () => {
           </div>
           {/* <hr /> */}
         </li>
+
       </ul>
     </div>
   );

@@ -70,11 +70,11 @@ const NavBar = () => {
               <a href="#contact">Contact</a>
             </li> 
             */}
-            <li>
+            {/* <li>
               <a target="_blank" href="/Resume.pdf" rel="noreferrer">
                 Resume
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="btn btn-ghost text-accent normal-case text-xl">
@@ -99,11 +99,11 @@ const NavBar = () => {
             <a href="#contact">Contact</a>
           </li> 
           */}
-          <li>
+          {/* <li>
             <a target="_blank" href="/Cheng_Qian_Resume.pdf" rel="noreferrer">
               Resume
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </motion.div>
