@@ -72,13 +72,29 @@ const Experience = () => {
           </div>
           <div className="timeline-start mb-10 md:text-end">
             <div className="text-lg font-black">Software Developer Student | PCL Construction</div>
-            <div className="font-mono italic">Jan 2024 - Aug 2024</div>
+            <div className="font-mono italic">Jan 2024 - Sep 2024</div>
             <p className="text-start">
-              During my time at PCL, I optimized the codebase and introduced new features for the Industrial Project Management (IPM) C# desktop application.
-              My contribution included building a multi-threaded, asynchronous reporting system, greatly enhancing the efficiency of batch report exports. I leveraged APIs to
-              determine the storage location of specification drawings (on-premise or cloud) for streamlined access and retrieval. Additionally, I developed RESTful APIs
-              and refactored backend services to align with the domain model, boosting maintainability. Lastly, I created an automated ML pipeline utilizing image processing
-              and TensorFlow, refining a ResNet model to achieve accurate label recognition in technical drawings.
+                <ul className="list-disc text-start text-white ml-5">
+                    <li>
+                        Optimized the codebase and introduced new features for the Industrial Project Management (IPM) C# desktop application.
+                    </li>
+                    <li>
+                        Implemented a multi-threaded asynchronous report system in IPM, significantly improving efficiency by 5x in exporting batch reports for clients.
+                    </li>
+                    <li>
+                        I wrote SQL queries to efficiently extract, transform, and visualize data, improving insights and decision-making.
+                        Also, developed predictive models based on historical in-shop work data to estimate future work capacity, enabling more informed, data-driven decisions.
+                    </li>
+                    <li>
+                        Implemented a microservice to dynamically load and display PDF specification drawings in Angular, supporting multiple file revisions and enabling annotations for enhanced collaboration.
+                    </li>
+                    <li>
+                        Integrated automated testing into the CI/CD pipeline for an Angular application using Azure DevOps, improving deployment efficiency and software reliability.
+                    </li>
+                    <li>
+                        Engineered an automated ML pipeline using image processing and TensorFlow for data collection, preprocessing, and fine-tuning a ResNet model for accurate label recognition in technical drawings.
+                    </li>
+                </ul>  
             </p>
           </div>
           <hr className="bg-primary" />
@@ -102,11 +118,13 @@ const Experience = () => {
             <div className="text-lg font-black">Undergraduate Research | University of Alberta</div>
             <div className="font-mono italic">Sep - Dec 2024</div>
             <p>
-                To enhance drug sensitivity predictions using cancer genomic data, I developed a machine learning pipeline using popular ML libraries from TensorFlow, PyTorch,
-                scikit-learn to focused on predictive modeling. Preprocessing and training workflows were implemented using scikit-learn, streamlining data preparation 
+                Performed data analysis and visualization on the Cancer Cell Line Encyclopedia dataset using Pandas and Matplotlib.
+                I developed a machine learning pipeline using ML libraries from TensorFlow, PyTorch, scikit-learn to predict the effectiveness of different drug on certain
+                cancers using cancer genomic data. Performed data analysis and visualization on the Cancer Cell Line Encyclopedia dataset using Pandas and Matplotlib.
+                Preprocessing and training workflows were implemented using scikit-learn, streamlining data preparation 
                 and analysis. Dimensionality reduction techniques and various models, including Elastic Net, Graph Neural Networks (GNN), and Support Vector Machines
                 (SVM), were applied to optimize predictive performance. Validation helped identify the most effective approaches for improving
-                drug response predictions, contributing to more accurate and insightful genomic-driven treatment strategies. Supervised by PhD Dr. Lei Ma and completed a academic paper.
+                drug response predictions, contributing to more accurate and insightful genomic-driven treatment strategies. Supervised by PhD Dr. Lei Ma and wrote an academic paper.
             </p>
           </div>
           <hr className="bg-primary" />
