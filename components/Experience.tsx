@@ -164,6 +164,43 @@ const Experience = () => {
         </li>
 
         <li>
+          <hr className="bg-primary" />
+          <div className="timeline-middle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              className="h-5 w-5">
+              <path
+                fillRule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                clipRule="evenodd" />
+            </svg>
+          </div>
+          <div className="timeline-start mb-10 md:text-end">
+            <div className="text-lg font-black">AI-based Automation Developer | University of Alberta</div>
+            <div className="font-mono italic">May 2025 - Present</div>
+            <div className="text-start">
+                <ul className="list-disc text-start text-white ml-5">
+                    <li>
+                        Integrated industrial machine vision cameras (Ethernet) to continuously capture images for chemical process control.
+                    </li>
+                    <li>
+                        Built image processing pipelines using OpenCV and scikit-image to analyze surface textures (GLCM, LBP) for reliable and robust interface detection in industrial chemical processes.
+                    </li>
+                    <li>
+                        Designed and implemented a Python-based web application with Dash and Bootstrap, enabling intuitive, real-time visualization and interaction with processed data.
+                    </li>
+                    <li>
+                        Assisted graduate students in configuring PLC-based lab experiments to model the bitumen extraction process.
+                    </li>
+                </ul>  
+            </div>
+          </div>
+          <hr className="bg-primary" />
+        </li>
+
+        <li>
           <hr />
           <div className="timeline-middle">
             <svg
@@ -177,16 +214,17 @@ const Experience = () => {
                 clipRule="evenodd" />
             </svg>
           </div>
-          <div className="timeline-start mb-10 md:text-end">
-            <div className="text-lg font-black">Available for 8-month co-op</div>
-            <div className="font-mono italic">May 2025 - Dec 2025</div>
+          <div className="timeline-end mb-10 md:text-start">
+            <div className="text-lg font-black">Available for 4 or more months for co-op</div>
+            <div className="font-mono italic">Starting Sep 2025</div>
             <p>
                 As an 4th year student with 7 semesters completed, I'm looking to wrap my degree with experience in software engineering or machine learning.
-                I will return to school in January 2026 for my final semester, graduating May 2026.
             </p>
           </div>
           {/* <hr /> */}
         </li>
+
+        
 
       </ul>
     </div>
