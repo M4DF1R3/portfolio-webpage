@@ -136,7 +136,7 @@ const Experience = () => {
             </svg>
           </div>
           <div className="timeline-end mb-10">
-            <div className="text-lg font-black">Undergraduate Research | University of Alberta</div>
+            <div className="text-lg font-black">ML Researcher | University of Alberta</div>
             <div className="font-mono italic">Sep - Dec 2024</div>
             <div>
                 <ul className="list-disc text-start text-white ml-5">
@@ -155,7 +155,7 @@ const Experience = () => {
                         including Elastic Net, GNN, and SVM, to identify the most effective approaches for drug response predictions.
                     </li>
                     <li>
-                        Supervised by PhD Dr. Lei Ma and wrote an academic paper.
+                        Supervised by PhD Dr. Lei Ma.
                     </li>
                 </ul>
             </div>
@@ -178,8 +178,8 @@ const Experience = () => {
             </svg>
           </div>
           <div className="timeline-start mb-10 md:text-end">
-            <div className="text-lg font-black">AI-based Automation Developer | University of Alberta</div>
-            <div className="font-mono italic">May 2025 - Present</div>
+            <div className="text-lg font-black">Computer Vision | University of Alberta</div>
+            <div className="font-mono italic">May - Aug 2025</div>
             <div className="text-start">
                 <ul className="list-disc text-start text-white ml-5">
                     <li>
@@ -187,12 +187,6 @@ const Experience = () => {
                     </li>
                     <li>
                         Built image processing pipelines using OpenCV and scikit-image to analyze surface textures (GLCM, LBP) for reliable and robust interface detection in industrial chemical processes.
-                    </li>
-                    <li>
-                        Designed and implemented a Python-based web application with Dash and Bootstrap, enabling intuitive, real-time visualization and interaction with processed data.
-                    </li>
-                    <li>
-                        Assisted graduate students in configuring PLC-based lab experiments to model the bitumen extraction process.
                     </li>
                 </ul>  
             </div>
@@ -215,10 +209,10 @@ const Experience = () => {
             </svg>
           </div>
           <div className="timeline-end mb-10 md:text-start">
-            <div className="text-lg font-black">Available for 4 or more months for co-op</div>
-            <div className="font-mono italic">Starting Sep 2025</div>
+            <div className="text-lg font-black">Seeking Summer 2026 Internship or New Grad Positions</div>
+            <div className="font-mono italic">Starting May 2026</div>
             <p>
-                As an 4th year student with 7 semesters completed, I'm looking to wrap my degree with experience in software engineering or machine learning.
+                I am actively seeking internship or new grad opportunities for Summer 2026 in software development, machine learning, or related fields. I can graduate in Spring 2026 or extend my degree to Spring 2027 if needed.
             </p>
           </div>
           {/* <hr /> */}
