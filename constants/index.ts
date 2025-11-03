@@ -1,7 +1,7 @@
 export const featuredProjects = [
     {
         name: "Astronomical Image Visualizer",
-        description: "The go-to app for exploring stunning astronomical images! This high-performance focused application built using React and TypeScript is capable of visualizing terabyte-sized astronomical images instantaneously using AWS S3-backed image tiling system enabling near-instantaneous zooming, panning, and multi-resolution rendering of cosmic image data. The backend is built with Node.js and Express.js to manage user data and metadata synchronization while ensuring low-latency communication between the frontend and cloud storage.",
+        description: "The go-to app for exploring stunning astronomical images, winning 3rd place at a local NASA 2025 hackathon! This high-performance focused application built using React and TypeScript is capable of visualizing terabyte-sized astronomical images instantaneously using AWS S3-backed image tiling system enabling near-instantaneous zooming, panning, and multi-resolution rendering of cosmic image data. The backend is built with Node.js and Express.js to manage user data and metadata synchronization while ensuring low-latency communication between the frontend and cloud storage.",
         image: "stellar-resolution.png",
         link: "https://stellar-resolution.photo/",
         github: "https://github.com/M4DF1R3/stellar-resolution",
