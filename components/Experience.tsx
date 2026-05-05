@@ -206,7 +206,7 @@ const Experience = () => {
           </div>
           <div className="timeline-end mb-10">
             <div className="text-lg font-black">Software Developer Co-op  | PCL Construction</div>
-            <div className="font-mono italic">Sep - Dec 2024</div>
+            <div className="font-mono italic">Sep 2026 - Present</div>
             <div>
                 <ul className="list-disc text-start text-white ml-5">
                     <li>
